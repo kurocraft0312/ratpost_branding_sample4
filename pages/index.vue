@@ -3,13 +3,26 @@
     <header class="l_header">
       <nav class="g_nav">
         <ul class="g_nav_ul">
-          <li class="g_nav_list"><a href="#" class="g_nav_link">HOME</a></li>
-          <li class="g_nav_list"><a href="#" class="g_nav_link">ABOUT</a></li>
-          <li class="g_nav_list"><a href="#" class="g_nav_link">INFO</a></li>
-          <li class="g_nav_list"><a href="#" class="g_nav_link">ACCESS</a></li>
-          <li class="g_nav_list"><a href="#" class="g_nav_link">CONTACT</a></li>
+          <li class="g_nav_list">
+            <a href="/" class="g_nav_link">HOME</a>
+          </li>
+          <li class="g_nav_list">
+            <a href="/about" class="g_nav_link">ABOUT</a>
+          </li>
+          <li class="g_nav_list">
+            <a href="/info" class="g_nav_link">INFO</a>
+          </li>
+          <li class="g_nav_list">
+            <a href="/access" class="g_nav_link">ACCESS</a>
+          </li>
+          <li class="g_nav_list">
+            <a href="/contact" class="g_nav_link">CONTACT</a>
+          </li>
         </ul>
       </nav>
+      <div class="hero_header">
+
+      </div>
     </header>
     <main class="">
 
