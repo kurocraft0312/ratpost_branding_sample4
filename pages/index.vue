@@ -22,7 +22,7 @@
       </nav>
       <div class="hero_header">
         <picture>
-          <img src="/assets/img/hero_header.jpg" class="hero_header_img" alt="トップ画像">
+          <img src="/assets/img/hero_header.jpg" class="hero_header_img" alt="トップ画像" />
         </picture>
       </div>
     </header>
