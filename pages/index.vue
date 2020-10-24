@@ -47,7 +47,9 @@
 }
 .g_nav_link {
   color: #ffffff;
+  display: block;
   text-decoration: none;
+  width: 100%;
 }
 .g_nav_link:hover {
   color: rgba(0,0,0,.5);
