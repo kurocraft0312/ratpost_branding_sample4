@@ -21,10 +21,12 @@
         </ul>
       </nav>
       <div class="hero_header">
-
+        <picture>
+          <img src="/assets/img/hero_header.jpg" class="hero_header_img" alt="トップ画像">
+        </picture>
       </div>
     </header>
-    <main class="">
+    <main class="container">
 
     </main>
     <footer class="">
@@ -66,6 +68,9 @@
 }
 .g_nav_link:hover {
   color: rgba(0,0,0,.5);
+}
+.hero_header_img {
+  height: 100vh;
 }
 .footer_bottom {
   background-color: rgba(0,0,0,.5);
