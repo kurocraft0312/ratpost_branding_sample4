@@ -23,9 +23,8 @@
           </li>
         </ul>
       </nav>
-      <!-- ここがズレている原因 -->
-      <div class="hero_header" :style="{height: height + 'px'}">
-        <!-- <h1 class="hero_header_copy">ここにキャッチコピーが入ります</h1> -->
+      <div class="hero_header">
+        <h1 class="hero_header_copy">ここにキャッチコピーが入ります</h1>
         <div class="hero_header_gray"></div>
       </div>
     </header>
@@ -45,13 +44,7 @@
   </div>
 </template>
 <style scoped>
-/* html {
-  display: block;
-  width: 100%;
-  word-break: break-all;
-} */
 .l_layout {
-
   word-break: break-all;
   overflow: hidden;
 }
@@ -69,6 +62,7 @@
   background-color: rgba(0,0,0,.5);
   color: #ffffff;
   width: 100%;
+  z-index: 1;
 }
 .title_header {
   padding: 24px 0;
@@ -115,12 +109,13 @@
   height: 100vh;
   width: 100%;
 }
-/* .hero_header_copy {
+.hero_header_copy {
   color: #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
-} */
+  transform: translateY(-50%) translateX(-50%);
+}
 .hero_header_gray {
   background-color: rgba(0,0,0,.2);
   height: 100%;
