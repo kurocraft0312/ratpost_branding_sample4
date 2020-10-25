@@ -1,7 +1,6 @@
 <template>
   <div class="l_layout">
     <header class="l_header">
-
       <nav class="g_nav">
         <h1 class="title_header">
           <a href="/" class="title_header_link">ブランドサイトサンプル4</a>
@@ -25,7 +24,7 @@
         </ul>
       </nav>
       <!-- ここがズレている原因 -->
-      <div class="hero_header">
+      <div class="hero_header" :style="{height: height + 'px'}">
         <!-- <h1 class="hero_header_copy">ここにキャッチコピーが入ります</h1> -->
         <div class="hero_header_gray"></div>
       </div>
@@ -153,6 +152,5 @@
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({
-
 })
 </script>

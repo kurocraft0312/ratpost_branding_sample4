@@ -31,6 +31,10 @@ html {
   margin: 0;
 }
 
+body {
+  overflow-y: scroll;
+}
+
 .button--green {
   display: inline-block;
   border-radius: 4px;
