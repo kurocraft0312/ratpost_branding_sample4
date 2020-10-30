@@ -24,12 +24,77 @@
         </ul>
       </nav>
       <div class="hero_header">
-        <h1 class="hero_header_copy">ここにキャッチコピーが入ります</h1>
+        <h2 class="hero_header_copy">ここにキャッチコピーが入ります</h2>
         <div class="hero_header_gray"></div>
       </div>
     </header>
     <main class="container">
-
+      <div class="bodycopy">
+        <h2 class="bodycopy_title">Lorem ipsum dolor sit amet.</h2>
+        <p class="bodycopy_contents">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maiores quam exercitationem mollitia optio explicabo error esse harum, molestias non pariatur consequatur at repudiandae, cum saepe illum dolor reiciendis nostrum?</p>
+        <div class="bodycopy_about">
+          <img src="cap1.jpg" alt="起業支援" class="bodycopy_img">
+          <img src="cap2.jpg" alt="経営コンサルティング" class="bodycopy_img">
+          <img src="cap3.jpg" alt="競合リサーチ" class="bodycopy_img">
+        </div>
+      </div>
+      <div class="newinfo_group">
+        <div class="newinfo">
+          <div class="newinfo_contents">
+            <time>2020.04.21</time>
+          </div>
+          <div class="newinfo_cat">お知らせ</div>
+          <div class="newinfo_body">
+            <p>
+              <a href="#" class="newinfo_link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptate?</a>
+            </p>
+          </div>
+        </div>
+        <div class="newinfo">
+          <div class="newinfo_contents">
+            <time>2020.04.21</time>
+          </div>
+          <div class="newinfo_cat">お知らせ</div>
+          <div class="newinfo_body">
+            <p>
+              <a href="#" class="newinfo_link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptate?</a>
+            </p>
+          </div>
+        </div>
+        <div class="newinfo">
+          <div class="newinfo_contents">
+            <time>2020.04.21</time>
+          </div>
+          <div class="newinfo_cat">お知らせ</div>
+          <div class="newinfo_body">
+            <p>
+              <a href="#" class="newinfo_link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptate?</a>
+            </p>
+          </div>
+        </div>
+        <div class="newinfo">
+          <div class="newinfo_contents">
+            <time>2020.04.21</time>
+          </div>
+          <div class="newinfo_cat">お知らせ</div>
+          <div class="newinfo_body">
+            <p>
+              <a href="#" class="newinfo_link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptate?</a>
+            </p>
+          </div>
+        </div>
+        <div class="newinfo">
+          <div class="newinfo_contents">
+            <time>2020.04.21</time>
+          </div>
+          <div class="newinfo_cat">お知らせ</div>
+          <div class="newinfo_body">
+            <p>
+              <a href="#" class="newinfo_link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptate?</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="">
       <div class="footer_top">
@@ -45,6 +110,7 @@
 </template>
 <style scoped>
 .l_layout {
+  background-color: #011433;
   word-break: break-all;
   overflow: hidden;
 }
@@ -111,6 +177,7 @@
 }
 .hero_header_copy {
   color: #ffffff;
+  font-size: 2.4rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -120,6 +187,51 @@
   background-color: rgba(0,0,0,.2);
   height: 100%;
   width: 100%;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+.bodycopy {
+  color: #ffffff;
+  text-align: center;
+}
+.bodycopy_title {
+  display: block;
+  font-size: 2.4rem;
+  margin: 64px auto;
+}
+.bodycopy_contents {
+  font-size: 1.6rem;
+  margin: 64px auto;
+}
+.bodycopy_about {
+  display: flex;
+  justify-content: space-around;
+  margin: 64px auto;
+}
+.bodycopy_img {
+  margin: auto 16px;
+  opacity: .4;
+  width: 100%;
+}
+.newinfo_group {
+  color: #ffffff;
+}
+.newinfo {
+  display: flex;
+  justify-content: center;
+}
+.newinfo_cat {
+  background-color: #ffffff;
+  color: #011433;
+  font-weight: bold;
+  margin: 4px 8px;
+  padding: 0 8px;
+}
+.newinfo_link {
+  color: #ffffff;
+  text-decoration: none;
 }
 .footer_bottom {
   background-color: rgba(0,0,0,.5);
@@ -141,6 +253,12 @@
   }
   .g_nav_list {
     margin: 0;
+  }
+  .bodycopy_about {
+    flex-direction: column;
+  }
+  .bodycopy_img {
+    margin: 16px auto;
   }
 }
 </style>
