@@ -38,7 +38,8 @@
           <img src="cap3.jpg" alt="競合リサーチ" class="bodycopy_img">
         </div>
       </div>
-      <div class="newinfo_group">
+      <section class="newinfo_group">
+        <h2 class="newinfo_title">INFO</h2>
         <div class="newinfo">
           <div class="newinfo_contents">
             <time>2020.04.21</time>
@@ -94,7 +95,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer class="">
       <div class="footer_top">
@@ -217,10 +218,19 @@
 }
 .newinfo_group {
   color: #ffffff;
+  margin: 64px auto;
+}
+.newinfo_title {
+  display: block;
+  font-size: 2.4rem;
+  margin: 64px auto;
+  text-align: center;
 }
 .newinfo {
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
 }
 .newinfo_cat {
   background-color: #ffffff;
@@ -237,6 +247,9 @@
   background-color: rgba(0,0,0,.5);
   color: #ffffff;
   text-align: center;
+}
+.copyright {
+  font-size: 1.6rem;
 }
 @media screen and (max-width: 768px) {
   .title_header {
@@ -259,6 +272,12 @@
   }
   .bodycopy_img {
     margin: 16px auto;
+  }
+  .newinfo {
+    flex-direction: column;
+  }
+  .copyright {
+    font-size: 1.4rem;
   }
 }
 </style>
